@@ -57,7 +57,7 @@ export function Logo({
     <>
       <div className="flex items-center justify-center">
         <Image src={LogoImage} alt="logo" height={55} width={55} />
-        <h1 className=" ml-2 font-display text-2xl font-bold text-[#1D63FF] sm:ml-4 sm:text-4xl">
+        <h1 className="ml-2 hidden font-display text-lg font-bold text-[#1D63FF] sm:ml-4 sm:flex sm:text-4xl">
           LogicLeaps
         </h1>
       </div>

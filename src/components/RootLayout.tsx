@@ -75,7 +75,7 @@ function Header({
             filled={logoHovered}
           />
         </Link>
-        <div className="flex items-center gap-x-8">
+        <div className="flex items-center gap-x-2 sm:gap-x-8">
           <Button href="/contact" invert={invert}>
             Contact us
           </Button>
