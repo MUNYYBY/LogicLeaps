@@ -20,6 +20,7 @@ import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
 import imageLaptop from '@/images/laptop.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
+import { Button } from '@/components/Button'
 
 const clients = [
   ['Phobia', logoPhobiaLight],
@@ -198,7 +199,7 @@ export default async function Home() {
 
   return (
     <>
-      <Container className="mt-24 sm:mt-32 md:mt-56">
+      <Container className="mt-24 h-[50vh] sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
             We believe in Innovate, Integrate and Elevate
@@ -208,23 +209,31 @@ export default async function Home() {
             intersection of design and technology, transforming your business
             from start to end.
           </p>
+          <div className="mt-6 flex">
+            <Button href="/contact" className="px-8 py-5">
+              Say Hey 👋
+            </Button>
+          </div>
         </FadeIn>
       </Container>
 
-      <Clients />
-
-      <CaseStudies caseStudies={caseStudies} />
-
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Dan Waters', logo: logoPhobiaDark }}
+        client={{ name: 'Dan Waters (Australia)', logo: logoPhobiaDark }}
       >
-        The team at LogicLeap went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
+        Logic Leaps has truly exceeded expectations in delivering outstanding
+        services. Their commitment to excellence is evident in every aspect of
+        their work. From innovative solutions to impeccable support, they have
+        consistently demonstrated expertise and dedication. Partnering with
+        Logic Leaps has been a game-changer for our business, and we highly
+        recommend their services.
       </Testimonial>
 
       <Services />
+
+      {/* <Clients /> */}
+
+      {/* <CaseStudies caseStudies={caseStudies} /> */}
 
       <ContactSection />
     </>

@@ -80,7 +80,11 @@ function ArrowIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 function NewsletterForm() {
   return (
-    <form className="max-w-sm">
+    <form
+      className="max-w-sm"
+      action="https://formspree.io/f/mdoqgwvw"
+      method="POST"
+    >
       <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
         Sign up for our newsletter
       </h2>
@@ -90,6 +94,7 @@ function NewsletterForm() {
       </p>
       <div className="relative mt-6">
         <input
+          name="email"
           type="email"
           placeholder="Email address"
           autoComplete="email"

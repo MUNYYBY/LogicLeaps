@@ -54,7 +54,7 @@ function RadioInput({
 function ContactForm() {
   return (
     <FadeIn className="lg:order-last">
-      <form>
+      <form action="https://formspree.io/f/xyyrjnag" method="POST">
         <h2 className="font-display text-base font-semibold text-neutral-950">
           Work inquiries
         </h2>
@@ -100,8 +100,7 @@ function ContactDetails() {
         Our offices
       </h2>
       <p className="mt-6 text-base text-neutral-600">
-        Prefer doing things in person? We don’t but we have to list our
-        addresses here for legal reasons.
+        Prefer doing things in person? We would love to have a visit by you
       </p>
 
       <Offices className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
@@ -111,10 +110,7 @@ function ContactDetails() {
           Email us
         </h2>
         <dl className="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
-          {[
-            ['Careers', 'careers@logicleaps.com'],
-            ['Press', 'press@logicleaps.com'],
-          ].map(([label, email]) => (
+          {[['Contact', 'muneeburryhman@gmail.com']].map(([label, email]) => (
             <div key={email}>
               <dt className="font-semibold text-neutral-950">{label}</dt>
               <dd>
