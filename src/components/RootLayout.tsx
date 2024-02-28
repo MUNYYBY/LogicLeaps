@@ -96,7 +96,7 @@ function Header({
                 'h-6 w-6',
                 invert
                   ? 'fill-white group-hover:fill-neutral-200'
-                  : 'fill-neutral-950 group-hover:fill-neutral-700',
+                  : 'group-hover:fill-opacity-75 fill-[#1D63FF]',
               )}
             />
           </button>

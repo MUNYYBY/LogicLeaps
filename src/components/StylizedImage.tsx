@@ -34,7 +34,7 @@ export function StylizedImage({
     <div
       className={clsx(
         className,
-        'relative flex aspect-[719/680] w-full grayscale',
+        'relative flex aspect-[719/680] w-full grayscale transition-all duration-1000 hover:filter-none',
       )}
     >
       <svg viewBox={`0 0 ${width} ${height}`} fill="none" className="h-full">

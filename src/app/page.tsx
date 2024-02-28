@@ -34,7 +34,7 @@ const clients = [
 
 function Clients() {
   return (
-    <div className="mt-24 rounded-4xl bg-neutral-950 py-20 sm:mt-32 sm:py-32 lg:mt-56">
+    <div className="mt-24 rounded-4xl bg-[#1D63FF] py-20 sm:mt-32 sm:py-32 lg:mt-56">
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
@@ -126,12 +126,15 @@ function Services() {
     <>
       <SectionIntro
         eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        title="We help you identify, explore and respond to new challenges."
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          Empower your journey using cutting-edge technology. We specialize in
+          leveraging innovative solutions to help individuals and businesses
+          identify, explore, and conquer emerging challenges. With our
+          tech-driven approach, we ensure you're well-equipped for continuous
+          growth and success.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -146,24 +149,37 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+            <ListItem title="Artificial Intelligence">
+              Unlock the potential of Artificial Intelligence with our expert
+              services. We offer tailored AI solutions to transform businesses,
+              enhance efficiency, and drive innovation. From machine learning to
+              advanced analytics, our team specializes in delivering
+              cutting-edge AI services that propel you into the future of
+              intelligent technology.
+            </ListItem>
             <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+              Elevate your online presence with our comprehensive web
+              development services. We specialize in crafting dynamic and
+              responsive websites tailored to your unique needs. From
+              user-friendly interfaces to robust backend solutions, our team
+              ensures a seamless and engaging digital experience. Let us bring
+              your vision to life on the web.
             </ListItem>
             <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+              Innovate your business with our premier Application Development
+              Services. We specialize in crafting tailored solutions, leveraging
+              the latest technologies to bring your ideas to life. From
+              intuitive user interfaces to robust functionality, our team
+              ensures seamless and innovative applications that meet your unique
+              needs, fostering success in the digital landscape.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
-            </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Cloud Support">
+              Embark on a transformative journey with our distinct Cloud Support
+              Services. Beyond mere migration and management, we craft
+              personalized cloud solutions that resonate with your business
+              needs. Elevate efficiency, bolster security, and experience a
+              unique approach to cloud optimization, tailored exclusively for
+              your success.
             </ListItem>
           </List>
         </div>
@@ -174,7 +190,7 @@ function Services() {
 
 export const metadata: Metadata = {
   description:
-    'We are a development studio working at the intersection of design and technology.',
+    'We are a custom software development company working at the intersection of design and technology.',
 }
 
 export default async function Home() {
@@ -201,7 +217,7 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Phobia', logo: logoPhobiaDark }}
+        client={{ name: 'Dan Waters', logo: logoPhobiaDark }}
       >
         The team at LogicLeap went above and beyond with our onboarding, even
         finding a way to access the user’s microphone without triggering one of
