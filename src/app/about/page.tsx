@@ -154,7 +154,7 @@ function Team() {
                           <Image
                             alt=""
                             {...person.image}
-                            className="h-96 w-full object-cover grayscale transition duration-500 motion-safe:group-hover:scale-105"
+                            className="h-96 w-full object-cover grayscale transition duration-500 group-hover:grayscale-0 motion-safe:group-hover:scale-105"
                           />
                           <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black to-black/0 to-40% p-6">
                             <p className="font-display text-base/6 font-semibold tracking-wide text-white">
@@ -191,42 +191,65 @@ export default async function About() {
     <>
       <PageIntro eyebrow="About us" title="Our strength is collaboration">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          At the core of our existence is a steadfast commitment to delivering
+          unparalleled solutions that transcend expectations. We embark on each
+          project with a mission to blend creativity, precision, and efficiency,
+          ensuring that our clients not only achieve their goals but surpass
+          them.
         </p>
-        <div className="mt-10 max-w-2xl space-y-6 text-base">
-          <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
-          </p>
-          <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
-          </p>
-        </div>
+        {/* <div className="mt-10 max-w-2xl space-y-6 text-base"></div> */}
       </PageIntro>
-      <Container className="mt-16">
+      <PageIntro title="Client-Centric Approach" eyebrow="">
+        <p>
+          Understanding that each client is unique, we tailor our services to
+          meet individual needs. Our client-centric approach involves active
+          collaboration, transparent communication, and a commitment to
+          exceeding expectations. Your success is our success, and we consider
+          ourselves partners in your journey.
+        </p>
+      </PageIntro>
+      <PageIntro title="Why Choose LogicLeaps" eyebrow="">
+        <p>
+          <strong className="font-semibold text-neutral-950">
+            Innovative Solutions:
+          </strong>{' '}
+          We don't just follow trends; we set them. Our commitment to innovation
+          ensures that your projects are infused with creativity and
+          cutting-edge solutions.
+          <br />
+          <br />
+          <strong className="font-semibold text-neutral-950">
+            Reliability:
+          </strong>{' '}
+          Meticulous planning and efficient execution form the backbone of our
+          reliability. Count on us to deliver on time and with precision.
+          <br />
+          <br />
+          <strong className="font-semibold text-neutral-950">Integrity:</strong>
+          <br />
+          Honesty and transparency are non-negotiable in our interactions. You
+          can trust us to provide clear insights and maintain the highest
+          ethical standards.
+        </p>
+      </PageIntro>
+      {/* <Container className="mt-16">
         <StatList>
           <StatListItem value="35" label="Underpaid employees" />
           <StatListItem value="52" label="Placated clients" />
           <StatListItem value="$25M" label="Invoices billed" />
         </StatList>
-      </Container>
+      </Container> */}
 
-      <Culture />
+      {/* <Culture />
 
-      <Team />
+      <Team /> */}
 
-      <PageLinks
+      {/* <PageLinks
         className="mt-24 sm:mt-32 lg:mt-40"
         title="From the blog"
         intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide. From conducting Brand Sprints to UX Design."
         pages={blogArticles}
-      />
+      /> */}
 
       <ContactSection />
     </>
