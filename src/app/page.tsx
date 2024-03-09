@@ -191,7 +191,7 @@ function Services() {
 
 export const metadata: Metadata = {
   description:
-    'We are a custom software development company working at the intersection of design and technology.',
+    'We specialize in crafting custom MVP/SAAS software, applications, and systems to fit your unique business needs. Our expert team ensures innovation, efficiency, and reliability in every solution. Choose us for bespoke IT solutions that align perfectly with your goals and processes.',
 }
 
 export default async function Home() {
