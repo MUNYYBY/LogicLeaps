@@ -133,9 +133,7 @@ function Services() {
         <p>
           Empower your journey using cutting-edge technology. We specialize in
           leveraging innovative solutions to help individuals and businesses
-          identify, explore, and conquer emerging challenges. With our
-          tech-driven approach, we ensure you're well-equipped for continuous
-          growth and success.
+          identify, explore, and conquer emerging challenges.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -199,20 +197,22 @@ export default async function Home() {
 
   return (
     <>
-      <Container className="mt-24 h-[50vh] sm:mt-32 md:mt-56">
-        <FadeIn className="max-w-3xl">
-          <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            We believe in Innovate, Integrate and Elevate
-          </h1>
-          <p className="mt-6 text-xl text-neutral-600">
-            We are a custom software development company working at the
-            intersection of design and technology, transforming your business
-            from start to end.
-          </p>
-          <div className="mt-6 flex">
-            <Button href="/contact" className="px-8 py-5">
-              Say Hey 👋
-            </Button>
+      <Container className="mt-24 h-[25rem] sm:mt-32 md:mt-56 md:h-[20rem]">
+        <FadeIn className="flex w-full items-center justify-between">
+          <div className="max-w-3xl">
+            <h1 className="font-display text-4xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
+              We believe in Innovate, Integrate and Elevate
+            </h1>
+            <p className="mt-6 text-lg text-neutral-600 sm:text-xl">
+              We are a custom software development company working at the
+              intersection of design and technology, transforming your business
+              from start to end.
+            </p>
+            <div className="mt-6 flex">
+              <Button href="/contact" className="px-8 py-5">
+                Say Hey 👋
+              </Button>
+            </div>
           </div>
         </FadeIn>
       </Container>
