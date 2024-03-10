@@ -223,10 +223,7 @@ export default async function Home() {
       >
         Logic Leaps has truly exceeded expectations in delivering outstanding
         services. Their commitment to excellence is evident in every aspect of
-        their work. From innovative solutions to impeccable support, they have
-        consistently demonstrated expertise and dedication. Partnering with
-        Logic Leaps has been a game-changer for our business, and we highly
-        recommend their services.
+        their work. We highly recommend their services.
       </Testimonial>
 
       <Services />
