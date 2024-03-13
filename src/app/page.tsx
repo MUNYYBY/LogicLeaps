@@ -209,8 +209,15 @@ export default async function Home() {
               from start to end.
             </p>
             <div className="mt-6 flex">
-              <Button href="/contact" className="px-8 py-5">
+              <Button href="/contact" className="hidden px-8 py-5 sm:block">
                 Say Hey 👋
+              </Button>
+              <Button
+                href="https://calendly.com/logicleaps/idea-discussion-meeting"
+                target="_blank"
+                className="!bg-black px-4 py-3 sm:ml-2 sm:px-8 sm:py-5"
+              >
+                Let Discuss your idea
               </Button>
             </div>
           </div>
@@ -221,7 +228,7 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Dan Waters (Australia)', logo: logoPhobiaDark }}
       >
-        Logic Leaps has truly exceeded expectations in delivering outstanding
+        LogicLeaps has truly exceeded expectations in delivering outstanding
         services. Their commitment to excellence is evident in every aspect of
         their work. We highly recommend their services.
       </Testimonial>
