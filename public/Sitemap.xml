@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://logicleaps.com/</loc>
+    <loc>https://www.logicleaps.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://logicleaps.com/about</loc>
+    <loc>https://www.logicleaps.com/about</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://logicleaps.com/process</loc>
+    <loc>https://www.logicleaps.com/process</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://logicleaps.com/contact</loc>
+    <loc>https://www.logicleaps.com/contact</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
