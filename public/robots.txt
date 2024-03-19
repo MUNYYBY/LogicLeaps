@@ -15,7 +15,7 @@ Allow: /contact
 Allow: /about
 Allow: /process
 
-Sitemap: https://www.logicleaps.com/Sitemap.xml
+Sitemap: https://www.logicleaps.com/sitemap.xml
 
 #
 # Hello! Welcome!
